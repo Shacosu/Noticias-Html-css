@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Noto+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.body,
+html {
+    background: #90EE90;
+}
+
+.homeAdmin {
+    width: 100%;
+}
+
+.homeAdminWrapper {
+    display: flex;
+}
+
+.homeAdminLeft {
+    flex: 2.5;
+}
+.homeAdminCenter {
+    flex: 7.5;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeAdminRight {
+    flex: 2;
+    margin-top: 20px;
+}
+
+.homeAdminImg {
+    width: 230px;
+    height: 75px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+.homeAdminTitle {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.homeAdminContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.searchInput {
+    width: 450px;
+    height: 30px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3); 
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3);
+    
+}
+
+.searchBtn {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3); 
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3);
+    transition: .1s ease;
+}
+
+.searchBtn:hover {
+    background-color:#2780E3;
+    color: white;
+}
+
+.homeAdminContentCenter {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background: #F1C27D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeAdminCenterImg {
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+    
+}
+
+.homeAdminContentText {
+    border: 1px solid black;
+    width: 350px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+
+.homeAdminContentItem {
+    margin-bottom: 15px;
+}
+
+
+.homeAdminItems {
+    display: flex;
+    height: 85vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.homeAdminSeccion {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+.homeAdminInputSeccion {
+    padding: 5px;
+    width: 100%;
+}
+
+#seccion {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+.homeAdminSeccionText {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.homeAdminRightContent {
+    display: flex;
+    align-items: center;
+}
+
+.homeAdminLinks {
+    margin-right: 10px;
+    font-weight: 600;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+
+.homeAdminLink {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.homeAdminLink:hover {
+    color: blue;
+}
+
+.homeAdminProfile {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    cursor: pointer;
+}

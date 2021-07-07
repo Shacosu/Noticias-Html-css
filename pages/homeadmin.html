@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/homeadmin.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div className="homeAdmin">
+        <div class="homeAdminWrapper">
+            <div class="homeAdminLeft"> 
+                <a href="../../Noticias/homeAdmin.html"><img class="homeAdminImg" src="../assets/logo.png" alt="logo"></a>
+                <div class="homeAdminContentLeft">
+                    <div class="homeAdminItems">
+                        <div class="homeAdminSeccion">
+                            <h2 style="text-align: center; margin-bottom: 5px;">Busca por seccion</h2>
+                            <select id="seccion" name="seccion">
+                                <option value="salud">Salud</option>
+                                <option selected value="deportes" >Deportes</option>
+                                <option value="politica">Politica</option>
+                                <option value="farandula">Farandula</option>
+                                <option value="mundo">Del mundo</option>
+                              </select>
+                              <p class="homeAdminSeccionText">Salud, Deportes, Politica y mas...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeAdminCenter">
+                <div class="homeAdminContentTop">
+                    <h1 class="homeAdminTitle">Busca tu noticia!</h1>
+                    <div class="homeAdminContent">
+                        <input class="searchInput" type="search" placeholder="Ingrese la noticia que desea buscar por id... ">
+                        <input type="submit" value="Buscar" class="searchBtn">
+                    </div>
+                    <div class="homeAdminContentCenter">
+                        <div class="homeAdminContentImg">
+                            <img class="homeAdminCenterImg" src="../assets/noticia.jpg" alt="noticia">
+                        </div>
+                        <div class="homeAdminContentText">
+                            <ul>
+                                <li class="homeAdminContentItem"><b>Fuente:</b> La cuarta</li>
+                                <li class="homeAdminContentItem"><b>Medio de difucion:</b> Periodico online</li>
+                                <li class="homeAdminContentItem"><b>Nombre del autor:</b> Juan Pablo</li>
+                                <li class="homeAdminContentItem"><b>Estado: Veridico</b></li>
+                                <li class="homeAdminContentItem"><b>Seccion:</b> Deporte</li>
+                                <li class="homeAdminContentItem"><b>Calificacion:</b> 5.6/10</li>
+                                <li class="homeAdminContentItem"><b>Descripcion:</b> Texto de referencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeAdminRight">
+                <div class="homeAdminRightContent">
+                    <div class="homeAdminLinks">
+                        <a class="homeAdminLink" href="./admin.html">Administrar</a>
+                    </div>
+                    <a href="/pages/admin.html"><img class="homeAdminProfile" src="../assets//profile.png" alt="profile"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

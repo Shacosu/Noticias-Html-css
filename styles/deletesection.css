@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Noto+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.body,
+html {
+    background: #90EE90;
+}
+
+.deleteSection {
+    width: 100%;
+}
+
+.deleteSectionWrapper {
+    display: flex;
+}
+
+.deleteSectionLeft {
+    flex: 3;
+}
+.deleteSectionCenter {
+    flex: 9;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deleteSectionImg {
+    width: 230px;
+    height: 75px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+.deleteSectionTitle {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.deleteSectionTitleInput {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.deleteSectionContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.deleteSectionContentCenter {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background: #F1C27D;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.contentItem {
+    margin: 50px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #90EE90;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+.contentItem:hover {
+    background-color:#2780E3;
+    color: white;
+}
+
+.newBtn {
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+.deleteSectionBtn {
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    margin-top: 45px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3); 
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3);
+    transition: .1s ease;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.deleteSectionBtn:hover {
+    background-color: #2780E3;
+}
+
+
+.deleteSectionInput {
+    width: 90%;
+    height: 30px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3); 
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.3);
+    
+}

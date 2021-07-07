@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/modifynews.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="modifyNews">
+        <div class="modifyNewsWrapper">
+            <div class="modifyNewsLeft"> 
+                <a href="../../Noticias/home.html"><img class="modifyNewsImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="modifyNewsTitle">Modificar noticias</h1>
+                <div class="modifyNewsContent">
+                    <form class="modifyNewsContentCenter" action="../php/cmodificarnoti.php" method="POST">
+                        <div class="contentLeft">
+                            <label for="" class="modifyNewsTitleInput">Codigo de noticia</label>
+                            <input class="modifyNewsInput" placeholder="Codigo noticia" type="text" name="c1" id="c1">
+                            <label for="" class="modifyNewsTitleInput">Fuente</label>
+                            <input class="modifyNewsInput" placeholder="Fuente" type="text" name="c2" id="c2">
+                            <label for="" class="modifyNewsTitleInput">Medio de difucion</label>
+                            <input class="modifyNewsInput" placeholder="Medio de difucion" type="text" name="c3" id="c3">
+                            <label for="" class="modifyNewsTitleInput">Nombre de autor</label>
+                            <input class="modifyNewsInput" placeholder="Nombre de autor" type="text" name="c4" id="c4">
+                        </div>
+                        <div class="newBtn">
+                            <input type="submit" class="modifyNewsBtn" value="Enviar">
+                        </div>
+                        <div class="contentRight">
+                            <label for="" class="modifyNewsTitleInput">Estado</label>
+                            <input class="modifyNewsInput" placeholder="Estado" type="text" name="c5" id="c5">
+                            <label for="" class="modifyNewsTitleInput">Seccion</label>
+                            <input class="modifyNewsInput" placeholder="Seccion" type="text" name="c6" id="c6">
+                            <label for="" class="modifyNewsTitleInput">Descripcion</label>
+                            <textarea class="modifyNewsTextarea" placeholder="Descripcion" type="text" rows="5" name="c7" id="c7"></textarea>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

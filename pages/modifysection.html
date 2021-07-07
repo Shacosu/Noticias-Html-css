@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/modifysection.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="modifySection">
+        <div class="modifySectionWrapper">
+            <div class="modifySectionLeft"> 
+                <a href="../../Noticias/home.html"><img class="modifySectionImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="modifySectionTitle">Modificar Seccion</h1>
+                <div class="modifySectionContent">
+                    <div class="modifySectionContentCenter">
+                        <form class="content" action="../php/cmodificarsec.php" method="POST">
+                            <label for="" class="modifySectionTitleInput">ID seccion</label>
+                            <input class="modifySectionInput" placeholder="ID seccion" type="text" name="d1" id="d1"> 
+                            <label for="" class="modifySectionTitleInput">Nombre</label>
+                            <input class="modifySectionInput" placeholder="Nombre" type="text" name="d2" id="d2"> 
+                            <label for="" class="modifySectionTitleInput">Tipo de noticia</label>
+                            <input class="modifySectionInput" placeholder="Tipo de noticia" type="text" name="d3" id="d3"> 
+                                <input type="submit" class="modifySectionBtn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

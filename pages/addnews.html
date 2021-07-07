@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/addnews.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="news">
+        <div class="newsWrapper">
+            <div class="newsLeft"> 
+                <a href="../../Noticias/home.html"><img class="newsImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="newsTitle">Menu de administrador</h1>
+                <div class="newsContent">
+                    <form class="newsContentCenter" class="form-noticia" action="../php/cnoticia.php" method="POST">
+                            <div class="contentLeft" >
+                                <label for="" class="newsTitleInput">Codigo de noticia</label>
+                                <input class="newsInput" placeholder="Codigo noticia" type="text" name="cd" id="cd">
+                                <label for="" class="newsTitleInput">Fuente</label>
+                                <input class="newsInput" placeholder="Fuente" type="text" name="cp" id="cp">
+                                <label for="" class="newsTitleInput">Medio de difucion</label>
+                                <input class="newsInput" placeholder="Medio de difucion" type="text" name="md" id="md">
+                                <label for="" class="newsTitleInput">Nombre de autor</label>
+                                <input class="newsInput" placeholder="Nombre de autor" type="text" name="na" id="na">
+                            </div>
+                            <div class="newBtn">
+                                <input type="submit" class="newsBtn" value="Enviar">
+                            </div>
+                            <div class="contentRight">
+                                <label for="" class="newsTitleInput">Estado</label>
+                                <input class="newsInput" placeholder="Estado" type="text" name="e" id="e">
+                                <label for="" class="newsTitleInput">Seccion</label>
+                                <input class="newsInput" placeholder="Seccion" type="text" name="s" id="s">
+                                <label for="" class="newsTitleInput">Descripcion</label>
+                                <textarea class="newsTextarea" placeholder="Descripcion" type="text" rows="5" name="d" id="d"></textarea>
+                            </div>
+                        </form>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

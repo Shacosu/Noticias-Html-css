@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/addsection.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="addSection">
+        <div class="addSectionWrapper">
+            <div class="addSectionLeft"> 
+                <a href="../../Noticias/home.html"><img class="addSectionImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="addSectionTitle">Agregar Seccion</h1>
+                <div class="addSectionContent">
+                    <div class="addSectionContentCenter">
+                        <form class="content" action="../php/cseccion.php" method="POST" >
+                            <label for="" class="addSectionTitleInput">ID seccion</label>
+                            <input class="addSectionInput" placeholder="ID seccion" type="text" name="ids" id="ids"> 
+                            <label for="" class="addSectionTitleInput">Nombre</label>
+                            <input class="addSectionInput" placeholder="Nombre" type="text" name="ns" id="ns"> 
+                            <label for="" class="addSectionTitleInput">Tipo de noticia</label>
+                            <input class="addSectionInput" placeholder="Tipo de noticia" type="text" name="tns" id="tns"> 
+                                <input type="submit" class="addSectionBtn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

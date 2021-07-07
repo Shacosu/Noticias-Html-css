@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/deletenews.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="deleteNews">
+        <div class="deleteNewsWrapper">
+            <div class="deleteNewsLeft"> 
+                <a href="../../Noticias/home.html"><img class="deleteNewsImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="deleteNewsTitle">Menu de administrador</h1>
+                <div class="deleteNewsContent">
+                    <div class="deleteNewsContentCenter">
+                        <form class="content" action="../php/celiminarnoti.php" method="POST">
+                            <label for="" class="deleteNewsTitleInput">Codigo de noticia</label>
+                            <input class="deleteNewsInput" placeholder="Codigo noticia" type="text" name="e1" id="e1"> 
+                                <input type="submit" class="deleteNewsBtn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

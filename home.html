@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div className="home">
+        <div class="homeWrapper">
+            <div class="homeLeft"> 
+                <a href="../../Noticias/home.html"><img class="homeImg" src="./assets/logo.png" alt="logo"></a>
+                <div class="homeContentLeft">
+                    <div class="homeItems">
+                        <div class="homeSeccion">
+                            <h2 style="text-align: center; margin-bottom: 5px;">Busca por seccion</h2>
+                            <select id="seccion" name="seccion">
+                                <option value="salud">Salud</option>
+                                <option selected value="deportes" >Deportes</option>
+                                <option value="politica">Politica</option>
+                                <option value="farandula">Farandula</option>
+                                <option value="mundo">Del mundo</option>
+                              </select>
+                              <p class="homeSeccionText">Salud, Deportes, Politica y mas...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeCenter">
+                <div class="homeContentTop">
+                    <h1 class="homeTitle">Busca tu noticia!</h1>
+                    <div class="homeContent">
+                        <input class="searchInput" type="search" placeholder="Ingrese la noticia que desea buscar por id... ">
+                        <input type="submit" value="Buscar" class="searchBtn">
+                    </div>
+                    <div class="homeContentCenter">
+                        <div class="homeContentImg">
+                            <img class="homeCenterImg" src="./assets/noticia.jpg" alt="noticia">
+                        </div>
+                        <div class="homeContentText">
+                            <ul>
+                                <li class="homeContentItem"><b>Fuente:</b> La cuarta</li>
+                                <li class="homeContentItem"><b>Medio de difucion:</b> Periodico online</li>
+                                <li class="homeContentItem"><b>Nombre del autor:</b> Juan Pablo</li>
+                                <li class="homeContentItem"><b>Estado: Veridico</b></li>
+                                <li class="homeContentItem"><b>Seccion:</b> Deporte</li>
+                                <li class="homeContentItem"><b>Calificacion:</b> 5.6/10</li>
+                                <li class="homeContentItem"><b>Descripcion:</b> Texto de referencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeRight">
+                <div class="homeRightContent">
+                    <div class="homeLinks">
+                        <a class="homeLink" href="../Noticias/pages/login.html">Iniciar sesion</a>
+                        <a class="homeLink" href="../Noticias/pages/register.html">Registrar</a>
+                    </div>
+                    <img class="homeProfile" src="./assets/profile.png" alt="profile">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>

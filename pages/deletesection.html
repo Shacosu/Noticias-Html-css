@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/deletesection.css">
+    <title>Agregar noticia</title>
+</head>
+<body>
+    <div class="deleteSection">
+        <div class="deleteSectionWrapper">
+            <div class="deleteSectionLeft"> 
+                <a href="../../Noticias/home.html"><img class="deleteSectionImg" src="../assets/logo.png" alt="logo"></a>
+                <h1 class="deleteSectionTitle">Eliminar Seccion</h1>
+                <div class="deleteSectionContent">
+                    <div class="deleteSectionContentCenter">
+                        <form class="content" action="../php/celiminarseccion.php" method="POST">
+                            <label for="b1" class="deleteSectionTitleInput">Codigo de seccion</label>
+                            <input class="deleteSectionInput" placeholder="ID seccion" type="text" name="b1" id="b1"> 
+                                <input type="submit" class="deleteSectionBtn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; Derechos reservados  <b>@Shacosu</b></p>
+    </footer>
+</body>
+</html>
